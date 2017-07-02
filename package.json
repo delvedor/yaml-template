@@ -1,0 +1,26 @@
+{
+  "name": "yaml-template",
+  "version": "1.0.0",
+  "description": "Yaml tagged template literal",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test.js"
+  },
+  "keywords": [
+    "yaml",
+    "tagged",
+    "template",
+    "literal",
+    "object"
+  ],
+  "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.8.4"
+  },
+  "devDependencies": {
+    "should": "^11.2.1",
+    "standard": "^10.0.2",
+    "tap": "^10.7.0"
+  }
+}
